@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 31
-    buildToolsVersion "28.0.2"
 
     defaultConfig {
         applicationId "at.bitfire.gfxtablet"
@@ -20,5 +19,5 @@ android {
 
 dependencies {
     //noinspection GradleCompatible
-    implementation "com.android.support:appcompat-v7:22.+"
+    implementation "com.android.support:appcompat-v7:22.2.1"
 }
